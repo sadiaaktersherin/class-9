@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.829);
+    background-image: url(../images/dawn.jpg);
+    background-blend-mode: multiply;
+    background-position: center;
+    color: white;
+    align-items: center;
+    padding: 20px 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+img{
+    width: 100%;
+}
+p{
+    font-size: 18px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+.logo h3{
+    font-size: 25px;
+    margin: 0;
+    text-transform: capitalize;
+}
+.logo h3 span{
+    font-weight: 200;
+}
+nav{}
+nav ul{}
+nav ul li{
+    display: inline;
+    margin: 0 0 0 44px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+
+}
+.banner{
+    text-align: center;
+    padding: 100px 0;
+}
+.banner h3{
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.banner span{
+    display: inline-block;
+    background-color: red;
+    width: 250px;
+    height: 5px;
+    border-radius: 5px;
+    
+
+}
+.banner h1{
+    font-size: 60px;
+
+}
+.banner button{
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 40px;
+    color: white;
+}
+.upcoming-event{
+    text-align: center;
+    margin: 50px 150px;
+}
+.upcoming-event h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.upcoming-event span{
+    display: inline-block;
+    background-color: red;
+    width: 250px;
+    height: 5px;
+    border-radius: 5px;
+}
+.event{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+    margin: 30px 0 0 0;
+}
+.event-item{
+
+}
+.event-item img{
+    height: 300px;
+    border-radius: 8px;
+}
+.event-item h4{
+    font-size: 32px;
+    text-transform: capitalize;
+}
+.event-item p{}
+.event-item a{
+    font-size: 19px;
+    color: red;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+/* explore */
+.explore-main{
+    background-image: url(../images/sea.png);
+    background-color: rgba(0, 0, 255, 0.541);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.explore{
+    padding: 100px;
+    color: white;
+    display: flex;
+}
+.explore-item{
+    width: 50%;
+}
+.explore-item h1{
+    font-size: 70px;
+    margin: 0 0 10px 0;
+}
+.explore-item span{
+    display: inline-block;
+    background-color: red;
+    width: 250px;
+    height: 5px;
+    border-radius: 5px;
+}
+.explore-item p{
+    margin: 30px 0;
+
+}
+.explore-item a{
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+  
+/* tour */
+.tour{
+    padding: 60px;
+    display: grid;
+    grid-template-columns: 450px repeat(2,1fr);
+    grid-gap: 30px;
+}
+.tour-item{}
+.tour-item h5{
+    font-size: 25px;
+    margin: 0 0 0 0;
+}
+.tour-item p{}
+.tour-item a{
+    text-decoration: none;
+    color: red;
+}
+.tour-item img{}
+.img-one{
+    height: 200px;
+    margin: 0 0 20px 0;
+
+}
+.img-two{
+    height: 250px;
+    margin: 0 0 20px 0;
+}
+
+/* footer */
+footer{
+    background-color: #141d4e;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+.fa-brands{
+    font-size: 40px;
+    margin: 0 15px;
+    
+}
+
+
+

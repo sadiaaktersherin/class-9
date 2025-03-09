@@ -1,0 +1,467 @@
+/* mobile */
+@media only screen and (max-width:667px) {
+    header {
+        padding: 10px 15px;
+    }
+
+
+    .navbar {
+        display: block;
+    }
+
+    .logo h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    nav {}
+
+    nav ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 5px;
+    }
+
+    .banner {
+        padding: 50px 0;
+    }
+
+    .banner h3 {
+        font-size: 25px;
+    }
+
+    .banner span {
+        ;
+        width: 150px;
+        height: 4px;
+    }
+
+    .banner h1 {
+        font-size: 40px;
+
+    }
+
+    .banner button {
+        padding: 10px 20px;
+    }
+
+    /* upcoming */
+    .upcoming-event{
+        margin: 50px 10px;
+    }
+    .upcoming-event h2{
+        font-size: 30px;
+    }
+    .upcoming-event span{
+        width: 150px;
+        height: 4px;
+
+    }
+    .event{
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 20px;
+        margin: 30px 0 0 0;
+    }
+
+    .event-item img{
+        height: 200px;
+ 
+    }
+    .event-item h4{
+        font-size: 22px;
+    }
+
+    
+/* explore */
+
+.explore{
+    padding: 70px 20px;
+    display: block;
+}
+.explore-item{
+    width: 100%;
+}
+
+.explore-item h1{
+    font-size: 35px;
+    margin: 0 0 0px 0;
+}
+.explore-item span{
+    width: 150px;
+    height: 4px;
+    
+}
+.explore-item p{
+    margin: 20px 0;
+
+}
+.explore-item a{
+    font-weight: 500;
+   
+}
+
+/* tour */
+.tour{
+    padding: 60px 15px;
+display: block;
+    
+}
+
+.tour-item h5{
+    font-size: 20px;
+}
+.tour-item a{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.img-one{
+    height: 200px;
+    margin: 0 0 15px 0;
+
+}
+.img-two{
+    height: 200px;
+    margin: 0 0 15px 0;
+}
+
+/* footer */
+footer{
+    background-color: #141d4e;
+    color: white;
+    padding: 40px;
+    
+}
+.fa-brands{
+    font-size: 20px;
+    margin: 0 10px;
+    
+}
+footer p{
+    font-size: 13px;
+}
+
+    
+}
+
+/* tab */
+@media only screen and (min-width:668px) and (max-width:768px) {
+    header {
+        padding: 12px 15px;
+    }
+
+
+    .navbar {
+        display: block;
+    }
+
+    .logo h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    nav {}
+
+    nav ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 15px;
+    }
+
+    .banner {
+        padding: 40px 0;
+    }
+
+    .banner h3 {
+        font-size: 29px;
+    }
+
+    .banner span {
+        ;
+        width: 150px;
+        height: 4px;
+    }
+
+    .banner h1 {
+        font-size: 46px;
+
+    }
+
+    .banner button {
+        padding: 12px 25px;
+    }
+
+    
+    .upcoming-event{
+        margin: 50px 10px;
+    }
+    .upcoming-event h2{
+        font-size: 30px;
+    }
+    .upcoming-event span{
+        width: 150px;
+        height: 4px;
+
+    }
+    .event{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+        margin: 30px 0 0 0;
+    }
+
+    .event-item img{
+        height: 250px;
+ 
+    }
+    .event-item h4{
+        font-size: 22px;
+    }
+
+    /* explore */
+
+.explore{
+    padding: 70px 20px;
+    display: flex;
+}
+.explore-item{
+    width: 50%;
+}
+
+.explore-item h1{
+    font-size: 35px;
+    margin: 0 0 0px 0;
+}
+.explore-item span{
+    width: 150px;
+    height: 4px;
+    
+}
+.explore-item p{
+    margin: 20px 0;
+
+}
+.explore-item a{
+    font-weight: 500;
+   
+}
+
+/* tour */
+.tour {
+    padding: 60px 85px;
+    display: block;
+    
+
+}
+
+.tour-item h5{
+    font-size: 20px;
+}
+.tour-item a{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.img-one{
+    height: 250px;
+    margin: 0 0 15px 0;
+
+}
+.img-two{
+    height: 300px;
+    margin: 0 0 15px 0;
+}
+   /* footer */
+footer{
+    background-color: #141d4e;
+    color: white;
+    padding: 40px;
+    
+}
+.fa-brands{
+    font-size: 20px;
+    margin: 0 10px;
+    
+}
+footer p{
+    font-size: 13px;
+}
+
+}
+
+/* large tab ,note book*/
+@media only screen and (min-width:769px) and (max-width:991px) {
+    header{
+        padding: 15px 40px;
+        
+    }
+    .logo h3{
+        font-size: 22px;
+    }
+    nav ul li{
+        margin: 0 0 0 44px;
+    }
+    .banner{
+        padding: 80px 0;
+    }
+    .banner h3{
+        font-size: 25px;
+    }
+    .banner h1{
+        font-size: 60px;
+    }
+    .banner button{
+        padding: 12px 26px;
+    }
+
+    /* upcoming */
+    
+    .upcoming-event{
+        margin: 50px;
+    }
+    .upcoming-event h2{
+        font-size: 35px;
+    }
+
+    .event{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 30px;
+    }
+
+    .event-item img{
+        height: 270px;
+ 
+    }
+    .event-item h4{
+        font-size: 28px;
+    }
+    
+    /* explore */
+
+.explore{
+    padding: 70px 20px;
+    display: flex;
+}
+
+
+.explore-item h1{
+    font-size: 50px;
+    margin: 0 0 10px 0;
+}
+.explore-item span{
+    width: 150px;
+    height: 4px;
+    
+}
+.explore-item p{
+    margin: 20px 0;
+
+}
+.explore-item a{
+    font-weight: 500;
+   
+}
+
+/* tour */
+.tour {
+    padding: 60px 85px;
+    display: block;
+    
+
+}
+
+.tour-item h5{
+    font-size: 20px;
+}
+.tour-item a{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.img-one{
+    height: 250px;
+    margin: 0 0 15px 0;
+
+}
+.img-two{
+    height: 300px;
+    margin: 0 0 15px 0;
+}
+}
+
+/* laptob */
+@media only screen and (min-width:992px) and (max-width:1023px) {
+
+    nav ul li{
+        margin: 0 0 0 24px;
+    }
+ 
+    .banner h1{
+        font-size: 65px;
+    
+    }
+
+
+        /* explore */
+
+
+
+.explore-item h1{
+    font-size: 60px;
+    margin: 0 0 10px 0;
+}
+.explore-item span{
+    width: 150px;
+    height: 4px;
+    
+}
+.explore-item p{
+    margin: 20px 0;
+
+}
+.explore-item a{
+    font-size: 18px;
+    font-weight: 500;
+   
+}
+
+
+/* tour */
+.tour{
+    padding: 60px;
+    display: grid;
+    grid-template-columns: 450px repeat(2,1fr);
+    grid-gap: 30px;
+}
+.tour-item{}
+.tour-item h5{
+    font-size: 25px;
+    margin: 0 0 0 0;
+}
+.tour-item p{}
+.tour-item a{
+    text-decoration: none;
+    color: red;
+}
+.tour-item img{}
+.img-one{
+    height: 250px;
+    margin: 0 0 20px 0;
+
+}
+.img-two{
+    height: 300px;
+    margin: 0 0 20px 0;
+}
+
+
+}
+/* monitor */
+@media only screen and (min-width:1025px) and (max-width:1440px) {
+
+}
